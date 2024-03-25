@@ -1,6 +1,6 @@
-import { onMouseLbtnDown, onPaint, onSize } from "common/callbacks";
-import { randomColor } from "common/helpers";
-import { Panel, Rect, Splitter, SplitterItem, WindowPanel } from "common/panel_splitter";
+import { onMouseLbtnDown, onPaint, onSize } from "src/common/callbacks";
+import { randomColor } from "src/common/helpers";
+import { Panel, Rect, Splitter, SplitterItem, WindowPanel } from "src/common/panel_splitter";
 
 export function fillRect(gr: GdiGraphics, bounds: Rect, color: number) {
 	gr.FillSolidRect(bounds.x, bounds.y, bounds.width, bounds.height, color);

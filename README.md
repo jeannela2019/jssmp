@@ -2,4 +2,4 @@
 
 ## Build
 
-Use `node.js` and `yarn` to build.
+Use `node.js` and `npm run build` to build.

@@ -7,9 +7,11 @@
       "ES2020",
       "ScriptHost"
     ],
-    "outDir": "../dist",
+    "outDir": "./dist",
   },
   "include": [
-    "./**/*.ts"
+    "./src/**/*.ts",
+    "./typings/**/*.d.ts",
+    "./vs/**/*.ts"
   ]
 }
